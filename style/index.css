@@ -1,0 +1,58 @@
+html {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 100%;
+    -webkit-font-smoothing: antialiased;
+}
+
+input {
+    width: calc(100% - 20%);
+    padding: 0.5em 0.5em;
+    font-size: 1.2em;
+    border-radius: 3px;
+    border: 1px solid #D9D9D9;
+}
+
+button {
+    padding: 0.5em 0.5em;
+    font-size: 1.2em;
+    border-radius: 3px;
+    border: 1px solid #D9D9D9;
+}
+.erreur {
+    color: #D8000C;
+    background-color: #FFD2D2;
+    width: calc(100% - 20%);
+    padding: 0.5em 0.5em;
+    font-size: 1.2em;
+    border-radius: 3px;
+    border: 1px solid #D9D9D9;
+}
+.succes {
+    color: #4F8A10;
+    background-color: #DFF2BF;
+    width: calc(100% - 20%);
+    padding: 0.5em 0.5em;
+    font-size: 1.2em;
+    border-radius: 3px;
+    border: 1px solid #D9D9D9;
+}
+.info {
+    color: #00529B;
+    background-color: #BDE5F8;
+    width: calc(100% - 20%);
+    padding: 0.5em 0.5em;
+    font-size: 1.2em;
+    border-radius: 3px;
+    border: 1px solid #D9D9D9;
+}
+
+button:hover {
+    background-color: darkgray;
+}
+
+label {
+    display: block;
+    margin-top: 2em;
+    margin-bottom: 0.5em;
+    color: #999999;
+}
